@@ -1,4 +1,5 @@
 import React from 'react';
+import Products from './Products';
 
 class Johannes extends React.Component{
     constructor(){
@@ -9,10 +10,12 @@ class Johannes extends React.Component{
     render(
     ){
         return (<> 
-                    <button onClick={()=> this.setState({show : !this.state.show})}>Johannes röv</button>
-                    {this.state.show && <p>Röv</p>}
+                    
                 </>)
     }
 }
 
 export default Johannes;
+
+//<button onClick={()=> this.setState({show : !this.state.show})}>Johannes röv</button>
+//{this.state.show && <p>Röv</p>}
