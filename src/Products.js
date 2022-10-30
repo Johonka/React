@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react';
 
 
-function Products(){
+const Products =() =>{
     const [data, setData] = useState([]);
     const getData=()=>{
         fetch(data.json,
